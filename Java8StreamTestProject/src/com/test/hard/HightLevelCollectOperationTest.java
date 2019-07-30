@@ -3,6 +3,8 @@ package com.test.hard;
 import java.util.IntSummaryStatistics;
 import java.util.List;
 import java.util.Map;
+import java.util.StringJoiner;
+import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 public class HightLevelCollectOperationTest {
@@ -53,5 +55,17 @@ public class HightLevelCollectOperationTest {
 				.collect(Collectors.toMap(p->p.age, p->p.name,(name1,name2)->name1+";"+name2));
 		
 		System.out.println(map);
+		System.out.println("=========================================="	);
+
+		Collector<Person,StringJoiner,String> personNameCollector = 
+				Collector.of(
+						()-> new StringJoiner(" | "), 
+						(j,p)->j.add(p.name.toUpperCase()),
+						(j1,j2)->j1.merge(j2),
+						StringJoiner::toString);
+		
+		String names = Person.persons.stream().collect(personNameCollector);
+		System.out.println(names);
+				
 	}
 }
