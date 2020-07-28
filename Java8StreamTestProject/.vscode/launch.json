@@ -1,0 +1,146 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Card",
+            "request": "launch",
+            "mainClass": "effectivejava.chapter7.item45.Card",
+            "projectName": "Java8StreamTestProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MersennePrimes",
+            "request": "launch",
+            "mainClass": "effectivejava.chapter7.item45.MersennePrimes",
+            "projectName": "Java8StreamTestProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HybridAragrams",
+            "request": "launch",
+            "mainClass": "effectivejava.chapter7.item45.anagrams.HybridAragrams",
+            "projectName": "Java8StreamTestProject",
+            "args": "F:\\GIT_HUB\\hello-world\\Java8StreamTestProject\\src\\effectivejava\\chapter7\\item45\\anagrams\\temp.txt 2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StreamAnagrams",
+            "request": "launch",
+            "mainClass": "effectivejava.chapter7.item45.anagrams.StreamAnagrams",
+            "projectName": "Java8StreamTestProject",
+            "args": "F:\\GIT_HUB\\hello-world\\Java8StreamTestProject\\src\\effectivejava\\chapter7\\item45\\anagrams\\temp.txt 1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IterativeAnagrams",
+            "request": "launch",
+            "mainClass": "effectivejava.chapter7.item45.anagrams.IterativeAnagrams",
+            "projectName": "Java8StreamTestProject",
+            "args": "F:\\GIT_HUB\\hello-world\\Java8StreamTestProject\\src\\effectivejava\\chapter7\\item45\\anagrams\\temp.txt 1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Freq",
+            "request": "launch",
+            "mainClass": "effectivejava.chapter7.item43.Freq",
+            "projectName": "Java8StreamTestProject",
+            "args": "a b c d e a b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Operation",
+            "request": "launch",
+            "mainClass": "effectivejava.chapter7.item42.Operation",
+            "projectName": "Java8StreamTestProject",
+            "args": "234 65"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ConsiderOrderInStreamTest<Java8StreamTestProject>",
+            "request": "launch",
+            "mainClass": "com.test.ConsiderOrderInStreamTest",
+            "projectName": "Java8StreamTestProject"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ConsiderOrderInStreamTest2<Java8StreamTestProject>",
+            "request": "launch",
+            "mainClass": "com.test.ConsiderOrderInStreamTest2",
+            "projectName": "Java8StreamTestProject"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HowStreamWorksTest<Java8StreamTestProject>",
+            "request": "launch",
+            "mainClass": "com.test.HowStreamWorksTest",
+            "projectName": "Java8StreamTestProject"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReUseStreamTest<Java8StreamTestProject>",
+            "request": "launch",
+            "mainClass": "com.test.ReUseStreamTest",
+            "projectName": "Java8StreamTestProject"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StreamTest<Java8StreamTestProject>",
+            "request": "launch",
+            "mainClass": "com.test.StreamTest",
+            "projectName": "Java8StreamTestProject"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FlatMapTest<Java8StreamTestProject>",
+            "request": "launch",
+            "mainClass": "com.test.flatmap.FlatMapTest",
+            "projectName": "Java8StreamTestProject"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FlatMapNPEtest<Java8StreamTestProject>",
+            "request": "launch",
+            "mainClass": "com.test.flatmap.example.FlatMapNPEtest",
+            "projectName": "Java8StreamTestProject"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HightLevelCollectOperationTest<Java8StreamTestProject>",
+            "request": "launch",
+            "mainClass": "com.test.hard.HightLevelCollectOperationTest",
+            "projectName": "Java8StreamTestProject"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Person<Java8StreamTestProject>",
+            "request": "launch",
+            "mainClass": "com.test.hard.Person",
+            "projectName": "Java8StreamTestProject"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReduceTest<Java8StreamTestProject>",
+            "request": "launch",
+            "mainClass": "com.test.hard.ReduceTest",
+            "projectName": "Java8StreamTestProject"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SortForeWays<Java8StreamTestProject>",
+            "request": "launch",
+            "mainClass": "effectivejava.chapter7.item42.SortForeWays",
+            "projectName": "Java8StreamTestProject",
+            "args": "asdf weriu dfg zweri6f po s"
+        }
+    ]
+}
