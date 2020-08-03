@@ -3,6 +3,7 @@ package effectivejava.chapter7.item47;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.Objects;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -33,5 +34,8 @@ public class SubList {
         List<String> list = Arrays.asList(args);
         // SubList.of(list).forEach(System.out::println);
         SubList.of1(list).forEach(System.out::println);
+
+        Objects.requireNonNull(args, ":");
+        Objects.checkIndex(3, 9);
     }
 }
