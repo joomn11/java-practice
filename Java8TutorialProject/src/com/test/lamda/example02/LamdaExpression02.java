@@ -43,8 +43,11 @@ public class LamdaExpression02 {
 
 
         // Example 2 
+        
 
         Thread th = new Thread(new Runnable(){
+            
+            int cnt = 99 ;
             
             @Override
             public void run() {

@@ -24,7 +24,18 @@ public class LamdaExpression03 {
 
         IntPredicate iPredicate = i -> i % 2 == 0 ;
         Predicate<Integer> iPredicate2 = i -> i % 2 ==0 ; // auto boxing ! 
+        
+        IntPredicate ff = new IntPredicate(){
+            
+            int test = 99 ;
 
+            @Override
+            public boolean test(int value) {
+                return false;
+            }
+            
+        };
+        
         System.out.println(isEmptyString);
         System.out.println(println);
         System.out.println(strCnt);
@@ -32,5 +43,8 @@ public class LamdaExpression03 {
         System.out.println(sum);
         System.out.println(iPredicate);
         System.out.println(iPredicate2);
+
+        // method reference 
+
     }
 }
