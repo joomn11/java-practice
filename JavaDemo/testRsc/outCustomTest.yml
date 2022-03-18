@@ -1,0 +1,8 @@
+!!com.test.yaml.Customer
+age: 31
+contactDetails:
+- {number: 123456789, type: mobile}
+- {number: 456786868, type: landline}
+firstName: John
+homeAddress: {city: City Y, state: State Y, zip: 345657}
+lastName: Doe

@@ -23,6 +23,13 @@ repositories {
 dependencies {
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:28.2-jre'
+    implementation 'org.yaml:snakeyaml:1.30'
+
+	compileOnly 'org.projectlombok:lombok:1.18.22'
+	annotationProcessor 'org.projectlombok:lombok:1.18.22'
+	
+	testCompileOnly 'org.projectlombok:lombok:1.18.22'
+	testAnnotationProcessor 'org.projectlombok:lombok:1.18.22'
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
@@ -31,4 +38,15 @@ dependencies {
 application {
     // Define the main class for the application.
     mainClassName = 'com.test.App'
+}
+
+sourceSets {
+    testRsc{
+        // srcDir 'd'
+    }
+    main{
+        java{
+            srcDir './testRsc'
+        }
+    }
 }
